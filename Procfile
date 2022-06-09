@@ -1,1 +1,1 @@
-web: gunicorn cdclass:app
+web: gunicorn cdclass:app --log-file=-
